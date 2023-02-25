@@ -1,0 +1,184 @@
+.conteiner {
+    flex-wrap: wrap;
+    top: 40px;
+    width: 700px; /* para darle un ancho al formulario */
+    min-height: 424px;
+    margin: 0 auto; /* para centrarlo en la página */
+    padding: 20px; /* para darle un poco de espacio alrededor */
+    min-height: 625px;
+    transform: translatex(0px) translatey(0px);
+    text-decoration: none;
+    gap: 2rem;
+}
+form {
+    top:100px;
+    height: 852px;
+    width: 402px; /* para darle un ancho al formulario */
+}
+
+.secun {
+    position: relative;
+    top: 189px;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 220px;
+    /* background-color: rgba(244, 5, 5, 0.581); */
+    background-color: #1768d2cb;
+    min-height: 119px;
+}
+.typesSelect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    background-color: rgba(244, 255, 39, 0.933);
+}
+
+.pTypes {
+    font-family: "Pokemon", sans-serif;
+    font-size: 1rem;
+    color: rgb(247, 15, 15);
+    margin-right: 0.5vw;
+}
+
+.btnDelete {
+    text-decoration: none;
+    width: 3vw;
+    height: 3vh;
+    background-color: rgba(239, 2, 2, 0.816);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.651);
+    font-family: "Verdana", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnDelete:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(48, 30, 9, 0.897);
+}
+
+.tipos {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 220px;
+    /* background-color: rgba(244, 5, 5, 0.581); */
+    background-color: #1768d2cb;
+}
+.tipos select{
+    cursor: pointer;
+}
+
+.input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* background-color: rgba(154, 152, 152, 0.485); */
+    background-color: #1768d2cb;
+}
+.input p {
+    color: red;
+}
+.atributos {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #1768d2cb;
+}
+.atributos p {
+    color: red;
+}
+
+.atributos2 p {
+    color: red;
+}
+.atributos2 {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* background-color: rgba(154, 152, 152, 0.485); */
+    background-color: #1768d2cb;
+}
+
+.input {
+    border: 1px solid rgb(170, 159, 159);
+}
+
+.btnCrear {
+    position: relative;
+    top: -189px;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 220px;
+    /* background-color: rgba(244, 5, 5, 0.581); */
+    background-color: #1768d2cb;
+    min-height: 119px;
+}
+
+.btnCrear p {
+    position: relative;
+    top: 45px;
+}
+.btnCrear button {
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+}
+
+.btnCrear button:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.form .secun{
+ top:12px;
+}
+
+/* Input */
+.form .input{
+ position:relative;
+ top:-200px;
+}
+
+/* Atributos */
+ .form .atributos{
+ position:relative;
+ top:-200px;
+}
+
+/* Atributos2 */
+ .form .atributos2{
+ position:relative;
+ top:-200px;
+}
+
+/* Tipos */
+ .form .tipos{
+ position:relative;
+ top:-200px;
+}
+
+/* Crear */
+.form .btnCrear{
+ top:-400px;
+}
+
+.form .secun h2{
+ position:relative;
+ top:25px;
+}
+
+/* Button */
+.secun  button{
+ position:relative;
+ left:-160px;
+ cursor: pointer;
+}
+
+.secun  button:hover{
+    background-color: blueviolet;
+}
